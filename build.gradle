@@ -28,7 +28,3 @@ tasks.withType(Test) {
 tasks.jacocoTestReport {
     dependsOn(tasks.test)
 }
-
-jacoco {
-    toolVersion = "0.7.5"
-}
