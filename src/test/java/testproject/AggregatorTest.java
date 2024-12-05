@@ -34,6 +34,6 @@ public class AggregatorTest {
         double notZero = 10;
         agr.addValue(notZero);
         agr.reset();
-        assertThat(agr.getSum()).isNotEqualTo(0);
+        assertThat(agr.getSum()).isEqualTo(0);
     }
 }
